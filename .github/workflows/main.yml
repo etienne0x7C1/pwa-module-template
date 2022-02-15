@@ -46,7 +46,7 @@ jobs:
           yarn
       - uses: actions/checkout@v2
         with:
-          path: 'src/modules/'
+          path: 'src/modules/pwa-module-template'
       - name: Set modules index & clone foreign modules
         env:
           GITLAB_USR: ${{ secrets.GITLAB_USER }}
