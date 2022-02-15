@@ -108,7 +108,7 @@ jobs:
       - name: Workspace artefact
         uses: actions/upload-artifact@v2
         with:
-          name: esp32interface-workspace-artifact
+          name: pwa-template-workspace-artifact
           path: |
             .
             !./node_modules/
